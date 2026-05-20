@@ -49,7 +49,7 @@ export default function Article() {
             marginBottom: '1.5rem',
           }}
         >
-          {'<-'} 全部文章
+          {'<-'} All posts
         </Link>
 
         <span
@@ -108,7 +108,7 @@ export default function Article() {
               letterSpacing: '0.05em',
             }}
           >
-            {'<-'} 返回文章列表
+            {'<-'} Back to posts
           </Link>
         </div>
       </article>
