@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: 30 33% 95%;
+    --fg: 20 30% 18%;
+    --muted: 30 10% 60%;
+    --accent: 25 70% 40%;
+  }
+
+  body {
+    font-family: "Noto Sans SC", "PingFang SC", -apple-system, sans-serif;
+    font-weight: 300;
+    background-color: #faf5f0;
+    color: #3d2b1f;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
